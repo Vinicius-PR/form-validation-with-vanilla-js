@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="style.css">
+  <title>Form validation - Vanilla JS</title>
+</head>
+<body>
+  <div class="container">
+    <div class="header">
+      <h1>Form validation - JS Vanilla</h1>
+    </div>
+
+    <form action="#" class="my-form" id="my-form">
+
+      <div class="form-control">
+        <label for="username">Username</label>
+        <input type="text" id="username" placeholder="User Name"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="email">Email</label>
+        <input type="email" inputmode="email" id="email" placeholder="Email"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="cpf">CPF</label>
+        <input type="text" inputmode="numeric" id="cpf" placeholder="000.000.000-00"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="phoneNumber">Phone Number</label>
+        <input type="tel" inputmode="tel" id="phoneNumber" placeholder="Cell phone or landline number"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password1">Password</label>
+        <input type="password" id="password1" placeholder="Password"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <div class="form-control">
+        <label for="password2">Repeat Password</label>
+        <input type="password" id="password2" placeholder="Repeat Password"/>
+        <i class="fas fa-check-circle"></i>
+			  <i class="fas fa-exclamation-circle"></i>
+			  <small>Error message</small>
+      </div>
+
+      <button type="submit">Submit</button>
+
+    </form>
+
+  </div>
+  <script src="https://kit.fontawesome.com/4d572f6180.js" crossorigin="anonymous"></script>
+  <script src="main.js"></script>
+</body>
+</html>
